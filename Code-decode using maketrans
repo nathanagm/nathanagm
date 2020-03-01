@@ -1,8 +1,8 @@
 from string import maketrans 
 
-intab = "abcdefghijklmnopqrstuvwxyz"
-outtab = "" #new-alphabet
-trantab = maketrans(intab, outtab)
+inpt = "abcdefghijklmnopqrstuvwxyz"
+outpt = "" #new-alphabet
+swtch = maketrans(inpt, outpt)
 
-str = ""
-print str.translate(trantab)
+totrad = "" #whatyouneedtocryptordecrypt
+print totrad.translate(swtch)
