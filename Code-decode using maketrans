@@ -1,0 +1,8 @@
+from string import maketrans 
+
+inpt = "abcdefghijklmnopqrstuvwxyz"
+outpt = "" #new-alphabet
+swtch = maketrans(inpt, outpt)
+
+totrad = "" #whatyouneedtocryptordecrypt
+print totrad.translate(swtch)
